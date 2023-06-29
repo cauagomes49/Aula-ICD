@@ -21,3 +21,5 @@ clf.predict([[2,2,3,1]])
 y_estimado =[]
 for flor in X:
     y_estimado.append(clf.predict([flor])[0])
+
+print(y_estimado ==y)
